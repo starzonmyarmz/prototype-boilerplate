@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #444;
+  font-family: HelveticaNeue, Helvetica, Arial, Sas-serif;
+  font-size: 14px;
+  margin: 50px auto;
+  width: 940px;
+  -webkit-font-smoothing: antialiased;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
