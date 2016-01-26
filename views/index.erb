@@ -5,16 +5,19 @@
   <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width">
 
-  <title></title>
+  <title><%= params['controller'].gsub("-", " ").capitalize %> <%= params['action'] %></title>
 
   <link rel="stylesheet" href="css/styles.css">
+  <%# Get Stylesheet file from /my-controller/action.css %>
+  <link rel="stylesheet" href="/css/<%= params['controller'] %>/<%= params['action'] %>.css">
 </head>
 <body>
 
   <!-- PROTOTYPE DAWG! -->
 
   <script src="js/jquery-2.1.0.min.js"></script>
-  <script src="js/scripts.js"></script>
+  <%# Get JavaScript file from /my-controller/action.js %>
+  <script src="/js/<%= params['controller'] %>/<%= params['action'] %>.js"></script>
 
 </body>
 </html>
