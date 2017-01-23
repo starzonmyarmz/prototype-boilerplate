@@ -1,2 +1,2 @@
-require './prototype'
+require './app'
 run Sinatra::Application
