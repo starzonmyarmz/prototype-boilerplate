@@ -13,5 +13,5 @@ bundle install
 To use, run this in Terminal:
 
 ```
-ruby prototype.rb
+ruby app.rb
 ```
